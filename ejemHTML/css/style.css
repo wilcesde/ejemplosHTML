@@ -1,0 +1,47 @@
+header, footer{
+    background-color: red;
+    color: white;
+    padding: 1em;  /*Medida relativa en relacion al tamaño del texto */
+}
+
+/* Encabezado con alto especificado */
+header{ height: 100px;}
+
+/* Imagen con posicion flotante a la izquierda, con ancho y alto especificados */
+img{
+    width: 230px;  
+    height: 110px;
+    float: left;
+}
+
+/* Dejar la imagen en su posicion natural */
+#tituloCont{ position: absolute;}
+/* h1{color: blue; font-family: arial;} */
+
+#menuHorizontal{
+    border: 2px solid grey;
+    height: 50px;
+    display: flex;
+    position: relative;
+    top: 2em;
+    left: 2em;
+    width: 600px;
+}
+
+li{ display: inline;}
+
+nav ul a{
+    text-decoration: none;
+    color: seashell;
+    font-size: 20px;
+}
+
+#redesSociales{
+    position: relative;
+    left: 60em;
+}
+
+.iconoRedSoc{
+    width: 30px;
+    height: 30px;
+}

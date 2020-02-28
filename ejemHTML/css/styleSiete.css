@@ -1,0 +1,61 @@
+/*Configuracion inicial para el documento*/
+html, body{ margin: 0; padding: 0; border: none; }
+
+#contenedor{
+    width: 80%;
+    margin: auto;
+ }
+
+ #cabecera, #piepag{
+    background: #cbcbcb;
+ }
+
+ #piepag{ clear: both; }
+
+ #primero{ background: #fb9f9f; }
+ #segundo{ background: #fdc08b; }
+ #tercero{ background: #fdeb8b; }
+
+ #cabecera, #piepag, #primero, #segundo, #tercero{
+     padding: 1.25em 2%;
+     margin: 0.4em 0;
+ }
+
+ #cabecera{ margin-bottom: 0; }
+ #contenido{ padding: 0; }
+
+ /*Maquetacion en dos columnas, con el contenido principal a la derecha*/
+ /*#primero{
+     float: right;
+     width: 65%;
+     height: 190px;
+     margin-left: 1%;
+     display: block;
+ }
+
+ #segundo{
+     float: left;
+     width: 26%;
+     height: 190px;
+     display: block;
+ }
+
+ #tercero{ clear: both;} */
+
+ /*Maquetacion en dos columnas, con el contenido principal a la derecha*/
+ #primero{
+    float: right;
+    width: 65%;
+    height: 190px;
+    margin-left: 1%;
+    display: block;
+}
+
+#segundo{
+    float: left;
+    width: 26%;
+    height: 190px;
+    display: block;
+}
+
+#tercero{ clear: both;}

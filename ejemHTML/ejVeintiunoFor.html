@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Veintiuno</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="container">
+    <header>
+        <h1>Examples bucle For</h1>
+    </header>
+    <section>
+        <!-- <script>
+            for (let people=1; people<=3; people++) {
+                var age = prompt("Enter age:");
+                const ageParameter = 18;
+                if (age >= ageParameter) {
+                    alert("Adult");
+                } else {
+                    alert("Younger");
+                }
+            }
+        </script> -->
+        
+        <!-- ------------------------------------ -->
+
+        <!-- <script>
+            var cars = ["Toyota", "Chevrolet", "Mazda", "Suzuki"];
+            for (let brands=0; brands<cars.length; brands++) {
+                const viewCars = cars[brands] + "<br>";
+                document.write(viewCars);
+                
+            }
+
+            //
+            for (let brands=0; brands<2; brands++) {
+                const viewCars = cars[brands] + "<br>";
+                document.write(viewCars);
+                
+            }
+
+            const viewCarOne = cars[0];
+            const viewCarTwo = cars[1];
+            document.write("Car One: " + viewCarOne +
+                             " " +
+                             "Car Two: " + viewCarTwo);
+        </script> -->
+        
+        <!-- ------------------------------------ -->
+        <p id="viewCarZero"></p>
+        <p id="viewCarOne"></p>
+        <p id="viewCarTwo"></p>
+        <p id="viewCarThree"></p>
+        <script>
+            var cars = ["Toyota", "Chevrolet", "Renault", "Suzuki"];
+            for (let brands=0; brands<cars.length; brands++) {
+                var carZero = cars[0];
+                var carOne = cars[1];
+                var carTwo = cars[2];
+                var carThree = cars[3];
+
+            document.getElementById('viewCarZero').innerHTML=carZero;
+            document.getElementById('viewCarOne').innerHTML=carOne;
+            document.getElementById('viewCarTwo').innerHTML=carTwo;
+            document.getElementById('viewCarThree').innerHTML=carThree;
+            }
+        </script>
+
+    </section>
+    <br><br><br><br><br>
+    <footer>
+        &reg; created by WCG-2019
+    </footer>
+</body>
+</html>

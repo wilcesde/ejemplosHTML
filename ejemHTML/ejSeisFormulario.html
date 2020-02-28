@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Seis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tituloCont">Formularios</h1>
+        <img src="imagenes/fot1.jpg" alt="Logo Empresa">
+        <nav id="menuHorizontal">
+            <ul>
+                <li>
+                    <a href="ejUno.html">Texto</a>
+                </li>
+                <li>
+                    <a href="ejTresImagenes.html">Imagenes</a>
+                </li>
+                <li>
+                    <a href="ejCuatroVideos.html">Videos</a>
+                </li>
+                <li>
+                    <a href="ejCincoAudio.html">Audios</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br>
+    <section>
+        <h2>Registro Persona</h2>
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <br><br>
+                    <label for="nombres">Nombres</label>
+                    <input type="text" name="nombres">
+                    <br><br>
+                    <!-- <label for="apellidos">Apellidos</label> -->
+                    <input placeholder="Apellidos" type="text" name="apellidos">
+                    <br><br>
+                    <label for="fNacimiento">Fecha Nacimiento</label>
+                    <input type="date" name="fNacimiento">
+                    <br><br>
+                    <label for="email">Correo</label>
+                    <input type="email">
+                    <br><br>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" cols="30" rows="10" maxlength="1000" minlength="100"></textarea>
+                    <br><br><br>
+                    <input type="button" value="Enviar">
+            </fieldset>            
+        </form>
+    </section>
+    <br><br><br>
+    <footer>
+        <div>
+            <div id="redesSociales">
+                <div>SÍGANOS EN </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="www.facebook.com">
+                                <img class="iconoRedSoc" src="iconos/facebook.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.twitter.com">
+                                <img class="iconoRedSoc" src="iconos/twitter.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.redfotografia.com">
+                                <img class="iconoRedSoc" src="iconos/camera.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                &copy; created by, WCG - 2019
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

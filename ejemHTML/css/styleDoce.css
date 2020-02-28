@@ -1,0 +1,66 @@
+#formacion li, #experiencia li{ color: #00F;}
+
+#formacion li strong, #experiencia li strong{ color: #000;}
+
+/*Consultas de Medios:
+Permiten colocar diferentes estilos de acuerdo
+al ancho de la ventana del navegador y las pantallas de los dispositivos*/
+
+/*Ventana Maximizada*/
+@media (min-width: 990px){
+    body{ background: yellow;}
+
+    #datos{
+        float: left;
+        width: 30%;
+    }
+
+    #informacion{
+        float: left;
+        width: 70%;
+    }
+
+    #formacion, #experiencia{
+        float: left;
+        width: 50%;
+    }
+}
+
+/*Ventana Restaurada*/
+@media (min-width: 501px) and (max-width: 989px){
+    body{ background: blue;}
+    #datos{
+        float: left;
+        width: 30%;
+    }
+
+    #informacion{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #datos li{ margin-top: 10px; }
+
+    #datos li strong{ display: block;}
+
+}
+
+/*Ventana Reducida*/
+@media (max-width: 501px){
+    body{ 
+        background: red;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    }
+
+    h1{ font-size: 1.5em;}
+
+    h2{ 
+        font-size: 1.2em;
+        border-bottom: 1px solid #000;
+    }
+
+    ul{
+        list-style-type: none;
+        /* padding: 0; */
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Veintidos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="container">
+    <script type="text/javascript">
+        function student() { 
+            var studentName = "";                
+            while (studentName.toUpperCase() != "NN") {
+                studentName = prompt("Enter student name");
+                // var studentNames = studentName;
+                alert("Your name is " + studentName + " registered!!");
+            }
+        }
+        student();
+    </script>
+
+    <!-- <script>
+        var age = 0;
+        while (age != 120) {
+            age = parseInt(prompt("Enter age"));
+            if (age >= 18) {
+                alert("Welcome");
+            } else {
+                alert("I´m sorry");
+            }
+            
+        }
+    </script> -->
+
+    <!-- <script>
+        var age = 0;
+        var count = -1;
+        var totalAge=0, averangeAge=0;
+        do {
+            age = parseInt(prompt("Enter age"));
+            if (age <= 18) {
+                alert("I´m sorry!!");
+            } else {
+                alert("Welcome!!");
+            }
+            totalAge = totalAge + age;
+            count++;
+        } while (age != 0);
+        averangeAge = parseInt(totalAge/count);
+        document.write("Cant: " + count + " and Averange : " + averangeAge);
+    </script> -->
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Diez</title>
+    <link rel="stylesheet" href="css/styleDiez.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Formulario Registro</h1>
+        <form>
+            <ul>
+                <li>
+                    <label class="titulo" for="nombres">
+                        Nombres y Apellidos
+                    </label>
+                    <div class="controles">
+                        <!-- span: Es un contenedor en linea.
+                        Sirve para aplicar estilos al texto o agrupar elementos en linea -->
+                        <span class="completo">
+                            <input id="nombres" name="nombre" value="">
+                            <label for="nombre">Nombres</label>
+                        </span>
+
+                        <span class="completo">
+                            <input id="apllUno" name="apllUno" value="">
+                            <label for="apllUno">Primer Apellido</label>
+                        </span>
+
+                        <span class="completo">
+                            <input id="apllDos" name="apllDos" value="">
+                            <label for="apllDos">Segundo Apellido</label>
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <label class="titulo" for="direcciones">Dirección</label>
+                    <div class="controles">
+                        <span class="completo">
+                            <input id="direccion" name="direccion" value="">
+                            <label for="direccion">Calle, número, piso, puerta</label>
+                        </span>
+
+                        <span class="tercio">
+                            <input id="codigopostal" name="codigopostal" value="">
+                            <label for="codigopostal">Código Postal</label>
+                        </span>
+
+                        <span class="dostercios">
+                            <input id="municipio" name="municipio" value="">
+                            <label for="municipio">Municipio</label>
+                        </span>
+
+                        <span class="tercio">
+                            <select name="provincia" id="provincia">
+                                <option value=""></option>
+                                <option value="provincia1">Provincia 1</option>
+                                <option value="provincia2">Provincia 2</option>
+                                <option value="provincia3">Provincia 3</option>
+                            </select>
+                            <label for="provincia">Provincia</label>
+                        </span>
+
+                        <span class="dostercios">
+                            <select name="pais" id="pais">
+                                <option value=""></option>
+                                <option value="pais1">Pais 1</option>
+                                <option value="pais2">Pais 2</option>
+                                <option value="pais3">Pais 3</option>
+                            </select>
+                            <label for="pais">Pais</label>
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <label class="titulo" for="correo">Email</label>
+                    <div class="controles">
+                        <span class="mitad">
+                            <input id="email" name="correo" value="">
+                        </span>
+                    </div>
+                </li>
+
+                <li>
+                    <label class="titulo" for="telefonos">Teléfonos</label>
+                    <div class="controles">
+                        <span class="mitad">
+                            <input id="telefonofijo" name="telefonofijo" value="">
+                            <label for="telefonofijo">Fijo</label>
+                        </span>
+
+                        <span class="mitad">
+                            <input id="telefonomovil" name="telefonomovil" value="">
+                            <label for="telefonomovil">Móvil</label>
+                        </span>
+                    </div>
+                </li>
+
+                <li class="botones">
+                    <input type="submit" id="alta" value="Registrarse">
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

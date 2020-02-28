@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <style type="text/css">
+        /* selector{ propiedad: valor;} */
+        /* Encabezado y pie con color rojo de fondo, su contenido blanco y un paddin o seperacion de 1em */
+        header, footer{
+            background-color: red;
+            color: white;
+            padding: 1em;  /*Medida relativa en relacion al tamaño del texto */
+        }
+
+        /* Encabezado con alto especificado */
+        header{ height: 100px;}
+
+        /* Imagen con posicion flotante a la izquierda, con ancho y alto especificados */
+        img{
+            width: 230px;  
+            height: 110px;
+            float: left;
+        }
+
+        /* Dejar la imagen en su posicion natural */
+        #tituloCont{ position: absolute;}
+        /* h1{color: blue; font-family: arial;} */
+
+        #menuHorizontal{
+            border: 2px solid grey;
+            height: 50px;
+            display: flex;
+            position: relative;
+            top: 2em;
+            left: 2em;
+            width: 600px;
+        }
+
+        li{ display: inline;}
+
+        nav ul a{
+            text-decoration: none;
+            color: seashell;
+            font-size: 20px;
+        }
+
+        #redesSociales{
+            position: relative;
+            left: 60em;
+        }
+
+        .iconoRedSoc{
+            width: 30px;
+            height: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="tituloCont">SoWil Company</h1>
+        <img src="imagenes/fot1.jpg" alt="Logo Empresa">
+        <nav id="menuHorizontal">
+            <ul>
+                <li>
+                    <a href="ejUno.html">Texto</a>
+                </li>
+                <li>
+                    <a href="ejTresImagenes.html">Imagenes</a>
+                </li>
+                <li>
+                    <a href="ejCuatroVideos.html">Videos</a>
+                </li>
+                <li>
+                    <a href="ejCincoAudio.html">Audios</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Intro</h2>
+        <pre>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vero earum dolore, tenetur eligendi labore soluta, mollitia accusamus, autem consectetur cumque. Molestias, repellendus aut facilis iste ex tempore quidem eius!
+        </pre>
+        <br><br>
+        <pre>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facere, quo possimus qui dolore nesciunt officiis repudiandae officia rem unde non itaque repellendus velit, atque asperiores quas quaerat debitis maxime.
+        </pre>
+    </section>
+    <footer>
+        <div>
+            <div id="redesSociales">
+                <div>SÍGANOS EN </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="www.facebook.com">
+                                <img class="iconoRedSoc" src="iconos/facebook.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.twitter.com">
+                                <img class="iconoRedSoc" src="iconos/twitter.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.redfotografia.com">
+                                <img class="iconoRedSoc" src="iconos/camera.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                &copy; created by, WCG - 2019
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

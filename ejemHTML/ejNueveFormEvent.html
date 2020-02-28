@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Nueve</title>
+    <link rel="stylesheet" href="css/styleNueve.css">
+</head>
+<body>
+    <header>
+        <h1>PERSONAS</h1>
+        <h2>Formulario de Registro</h2>
+    </header>
+    <form>
+        <fieldset>
+            <legend>¿Quién Eres?</legend>
+            <p>
+                <label for="nombre">Nombres</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="apellido">Apellidos</label>
+                <input type="text" name="apellido" id="apellido">
+            </p>
+
+            <p>
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" name="correo" id="correo">
+            </p>
+
+            <p>
+                <label for="dia">Fecha Nacimiento</label>
+                <select name="dia" id="dia">
+                    <option>Día</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+
+                <select name="mes" id="mes">
+                    <option>Mes</option>
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                </select>
+
+                <select name="anio" id="anio">
+                    <option>Año</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <p class="centrado">
+            <input type="submit" value="Registrar" id="boton-crear">
+        </p>
+    </form>
+</body>
+</html>

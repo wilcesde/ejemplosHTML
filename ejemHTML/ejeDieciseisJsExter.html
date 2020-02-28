@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Dieciseis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="js/ejDieciseisJsExter.js"></script>
+</head>
+<body class="container">
+    <header>
+        <h1>Ejemplos Áreas</h1>
+    </header>
+    <section>
+        <h2>
+            Área de un Triangulo
+        </h2>
+        <form>
+            <label for="base">Base</label>
+            <input type="text" name="base" id="base">
+            <br><br>
+            <label for="altura">Altura</label>
+            <input type="text" name="altura" id="altura">
+            <br><br>
+            <button type="button" onclick="mostrarAreaTriangulo()">Calcular</button>
+            <br><br>
+            <p>Área del Triangulo
+                <textarea id="resultadoAT" cols="5" rows="1"></textarea>
+            </p>
+        </form>
+    </section>
+    <hr><hr><hr>
+    <section>
+        <h2>
+            Área de un Circulo
+        </h2>
+        <form>
+            <label for="radio">Radio</label>
+            <input type="text" name="radio" id="radio">
+            <br><br>
+            <button type="button" onclick="mostrarAreaCirculo()">Calcular</button>
+            <br><br>
+            <p>Área del Circulo
+                <textarea id="resultadoAC" cols="20" rows="1"></textarea>
+            </p>
+        </form>
+    </section>
+    <br><br><br><br><br>
+    <footer>
+        &reg; created by WCG-2019
+    </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Diecinueve</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="js/ejDiecinueveCase.js"></script>
+</head>
+<body class="container">
+    <header>
+        <h1>WCG Store</h1>
+    </header>
+    <section>
+        <h2>Products</h2>
+        <form>
+            <label for="productName">Product Name</label>
+            <input type="text" name="productName" id="productName">
+            <br><br>
+            <button class="btn btn-success" type="button" onclick="productPrice()">Price</button>
+            <br><br>
+            <p>Unit Price
+                <textarea id="result" cols="6" rows="1"></textarea>
+            </p>
+        </form>
+    </section>
+    <footer>
+        &reg; created by WCG-2019
+    </footer>
+</body>
+</html>

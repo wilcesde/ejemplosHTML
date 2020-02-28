@@ -1,0 +1,55 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{ text-align: center; }
+
+h1, h2{ font-family: Georgia, serif;}
+
+h1{ font-size: 3em;}
+
+fieldset{ 
+    margin: 1em auto;
+    width: 40em;
+    /* background-color: darkkhaki; */
+    background: url(../imagenes/comida.jpg);
+    border-radius: 10px;
+}
+
+p{ text-align: center;}
+
+legend{
+    font-size: 1.2em;
+    font-weight: bold; color:blue;
+    text-transform: uppercase;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+}
+
+input:hover, select:hover{
+    background-color: yellow;
+}
+
+input:focus, select:focus{
+    background-color: orangered;
+}
+
+#boton-crear{
+    font-size: 2em;
+    padding: 0.5em;
+    background-color: blue;
+}
+
+#boton-crear:hover{ background-color: yellow;}
+
+#boton-crear:focus{ background-color: orangered;}
+
+
+
+.centrado{ text-align: center; }
+

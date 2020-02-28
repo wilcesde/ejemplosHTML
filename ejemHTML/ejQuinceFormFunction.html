@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Quince</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="container">
+    <header>
+        <h1>Ejemplo Formulario y Función</h1>
+    </header>
+    <br><br><br>
+    <section>
+        <h2>Operación Aritmetica</h2>
+        <form>
+            <label for="nUno">Numero Uno</label>
+            <input type="text" name="nUno" id="numUno">
+            <br><br>
+            <label for="nDos">Numero Dos</label>
+            <input type="text" name="nDos" id="numDos">
+            <br><br>
+            <button type="button" onclick="sumar()">Calcular</button>
+            <br><br>
+            <p>Resultado:
+                <textarea id="resultado" cols="4" rows="1"></textarea>
+            </p>
+        </form>
+    </section>
+    <br><br><br><br><br><br>
+    <footer>
+        &reg; created by WCG
+    </footer>
+    <script>
+        function sumar() {
+            //Recibir (leer) datos
+            var numeroUNo = document.getElementById("numUno").value;
+            var numeroDos = document.getElementById("numDos").value;
+
+            //Realizar los calculos
+            var resultadoSuma = numeroUNo + numeroDos;
+
+            //Entregar (mostrar) los resultados
+            document.getElementById("resultado").innerHTML = resultadoSuma;
+        }
+    </script>
+</body>
+</html>
